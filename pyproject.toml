@@ -1,0 +1,20 @@
+[project]
+name = "local-llm-server"
+version = "0.1.0"
+description = "Minimal local LLM API server for Qwen"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "av>=14.0.0",
+    "mlx-vlm[torch]>=0.3.12",
+    "pillow>=10.0.0",
+]
+
+[build-system]
+requires = ["hatchling>=1.24.0"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = false

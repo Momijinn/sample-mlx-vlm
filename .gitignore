@@ -1,0 +1,28 @@
+.DS_Store
+
+# Local Python environment
+.venv/
+.python-version
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.so
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+models/
+
+# Local overrides and secrets
+.env
+.env.*
+.mise.local.toml
